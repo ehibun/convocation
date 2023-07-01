@@ -67,14 +67,17 @@
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
-  
+
   imports = [
+    ./1password.nix
     ./blackbox/default.nix
     ./dconf.nix
     ./git.nix
+    ./gh.nix
     ./fish.nix
     ./fonts.nix
     # ./stylix.nix
     ./vscode.nix
+    ./ssh.nix
   ];
 }

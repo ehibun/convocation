@@ -111,7 +111,7 @@
   users.users.ehi = {
     isNormalUser = true;
     description = "Emily";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "onepassword" "onepassword-cli" ];
     shell = pkgs.fish;
     packages = with pkgs; [
       firefox
