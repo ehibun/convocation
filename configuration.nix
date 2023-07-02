@@ -82,9 +82,9 @@
   hardware.opengl.driSupport = true;
   hardware.opengl.driSupport32Bit = true;
   hardware.nvidia = {
-    modesetting.enable = true;
+    # modesetting.enable = true;
     nvidiaSettings = true;
-    powerManagement.enable = true;
+    # powerManagement.enable = true;
   };
 
   # Enable sound with pipewire.
