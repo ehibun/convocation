@@ -13,5 +13,9 @@
     plugins = [
       { name = "hydro"; src = pkgs.fishPlugins.hydro.src; }
     ];
+    shellAbbrs = {
+      gst = "git status";
+      gco = "git checkout";
+    };
   };
 }
